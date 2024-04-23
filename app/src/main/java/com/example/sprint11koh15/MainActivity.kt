@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         itemsRv.adapter = adapter
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://raw.githubusercontent.com/avanisimov/sprint-11-koh-14/")
+            .baseUrl("https://raw.githubusercontent.com/avanisimov/sprint-11-koh-15/")
             .addConverterFactory(
                 GsonConverterFactory.create(
                     GsonBuilder()
